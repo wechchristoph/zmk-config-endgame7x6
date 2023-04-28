@@ -16,8 +16,8 @@
 
 include:
   - board: nice_nano
-    shield: dactyl_cc_left
+    shield: dactyl_endgame_left
   - board: nice_nano
-    shield: dactyl_cc_right
+    shield: dactyl_endgame_right
   - board: nice_nano
     shield: settings_reset

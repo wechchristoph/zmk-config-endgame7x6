@@ -1,10 +1,6 @@
-// dactyl_cc_right.overlay
+// dactyl_endgame_left.overlay
 
-#include "dactyl_cc.dtsi"
-
-&default_transform { // The matrix transform for this board is 6 columns over because the left half is 6 columns wide according to the matrix.
-    col-offset = <6>;
-};
+#include "dactyl_endgame.dtsi" // Notice that the main dtsi files are included in the overlay.
 
 &kscan0 {
     col-gpios
