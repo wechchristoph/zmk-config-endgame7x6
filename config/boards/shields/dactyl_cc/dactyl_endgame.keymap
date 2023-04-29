@@ -34,7 +34,7 @@
 
         fn_layer {
             bindings = <
-   &trans       &kp K_MUTE &kp K_VOL_DOWN &kp K_VOL_UP &kp K_PREV &kp K_PP &kp K_NEXT   &kp C_BRI_DN &kp C_BRI_UP        &trans     &trans      &trans    &trans
+   &trans       &kp K_MUTE &kp K_VOL_DN &kp K_VOL_UP &kp K_PREV &kp K_PP &kp K_NEXT   &kp C_BRI_DN &kp C_BRI_UP        &trans     &trans      &trans    &trans
    &trans           &trans    &trans     &trans    &trans     &trans     &trans         &trans     &trans     &trans     &trans     &trans      &trans    &trans
    &trans           &trans    &trans     &trans    &trans     &trans     &trans         &trans     &trans     &trans     &trans     &trans      &trans    &trans
    &trans           &trans    &trans     &trans    &trans     &trans     &trans         &trans     &trans     &trans     &trans     &trans      &trans    &trans
