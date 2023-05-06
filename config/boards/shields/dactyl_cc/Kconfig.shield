@@ -5,4 +5,7 @@ config SHIELD_DACTYL_CC_RIGHT
     def_bool $(shields_list_contains,dactyl_endgame_right)
 
 config ZMK_SLEEP
-    def_bool true
+    default y
+
+config ZMK_IDLE_SLEEP_TIMEOUT
+    default 600000
